@@ -11,7 +11,6 @@ namespace Company.BLLContainer
 {
     public class Container
     {
-
         /// <summary>
         /// IOC 容器
         /// </summary>
