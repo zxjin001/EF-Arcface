@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HeNanWuJingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Base_Organize">
+    <Key>
+      <PropertyRef Name="OrganizeId" />
+    </Key>
+    <Property Name="OrganizeId" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Category" Type="int" />
+    <Property Name="ParentId" Type="varchar" MaxLength="50" />
+    <Property Name="EnCode" Type="varchar" MaxLength="50" />
+    <Property Name="ShortName" Type="varchar" MaxLength="50" />
+    <Property Name="FullName" Type="varchar" MaxLength="50" />
+    <Property Name="Nature" Type="varchar" MaxLength="50" />
+    <Property Name="OuterPhone" Type="varchar" MaxLength="50" />
+    <Property Name="InnerPhone" Type="varchar" MaxLength="50" />
+    <Property Name="Fax" Type="varchar" MaxLength="50" />
+    <Property Name="Postalcode" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="ManagerId" Type="varchar" MaxLength="50" />
+    <Property Name="Manager" Type="varchar" MaxLength="50" />
+    <Property Name="ProvinceId" Type="varchar" MaxLength="50" />
+    <Property Name="CityId" Type="varchar" MaxLength="50" />
+    <Property Name="CountyId" Type="varchar" MaxLength="50" />
+    <Property Name="Address" Type="varchar" MaxLength="50" />
+    <Property Name="WebAddress" Type="varchar" MaxLength="200" />
+    <Property Name="FoundedTime" Type="datetime" />
+    <Property Name="BusinessScope" Type="varchar" MaxLength="200" />
+    <Property Name="Layer" Type="int" />
+    <Property Name="SortCode" Type="int" />
+    <Property Name="DeleteMark" Type="int" />
+    <Property Name="EnabledMark" Type="int" />
+    <Property Name="Description" Type="varchar" MaxLength="200" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="CreateUserId" Type="varchar" MaxLength="50" />
+    <Property Name="CreateUserName" Type="varchar" MaxLength="50" />
+    <Property Name="ModifyDate" Type="datetime" />
+    <Property Name="ModifyUserId" Type="varchar" MaxLength="50" />
+    <Property Name="ModifyUserName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="HeNanWuJingModelStoreContainer">
+    <EntitySet Name="Base_Organize" EntityType="Self.Base_Organize" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

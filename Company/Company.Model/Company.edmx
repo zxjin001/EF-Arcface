@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="HeNanWuJingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Base_Organize">
+          <Key>
+            <PropertyRef Name="OrganizeId" />
+          </Key>
+          <Property Name="OrganizeId" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Category" Type="int" />
+          <Property Name="ParentId" Type="varchar" MaxLength="50" />
+          <Property Name="EnCode" Type="varchar" MaxLength="50" />
+          <Property Name="ShortName" Type="varchar" MaxLength="50" />
+          <Property Name="FullName" Type="varchar" MaxLength="50" />
+          <Property Name="Nature" Type="varchar" MaxLength="50" />
+          <Property Name="OuterPhone" Type="varchar" MaxLength="50" />
+          <Property Name="InnerPhone" Type="varchar" MaxLength="50" />
+          <Property Name="Fax" Type="varchar" MaxLength="50" />
+          <Property Name="Postalcode" Type="varchar" MaxLength="50" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+          <Property Name="ManagerId" Type="varchar" MaxLength="50" />
+          <Property Name="Manager" Type="varchar" MaxLength="50" />
+          <Property Name="ProvinceId" Type="varchar" MaxLength="50" />
+          <Property Name="CityId" Type="varchar" MaxLength="50" />
+          <Property Name="CountyId" Type="varchar" MaxLength="50" />
+          <Property Name="Address" Type="varchar" MaxLength="50" />
+          <Property Name="WebAddress" Type="varchar" MaxLength="200" />
+          <Property Name="FoundedTime" Type="datetime" />
+          <Property Name="BusinessScope" Type="varchar" MaxLength="200" />
+          <Property Name="Layer" Type="int" />
+          <Property Name="SortCode" Type="int" />
+          <Property Name="DeleteMark" Type="int" />
+          <Property Name="EnabledMark" Type="int" />
+          <Property Name="Description" Type="varchar" MaxLength="200" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="CreateUserId" Type="varchar" MaxLength="50" />
+          <Property Name="CreateUserName" Type="varchar" MaxLength="50" />
+          <Property Name="ModifyDate" Type="datetime" />
+          <Property Name="ModifyUserId" Type="varchar" MaxLength="50" />
+          <Property Name="ModifyUserName" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="HeNanWuJingModelStoreContainer">
+          <EntitySet Name="Base_Organize" EntityType="Self.Base_Organize" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HeNanWuJingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Base_Organize">
+          <Key>
+            <PropertyRef Name="OrganizeId" />
+          </Key>
+          <Property Name="OrganizeId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Category" Type="Int32" />
+          <Property Name="ParentId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EnCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ShortName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Nature" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="OuterPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="InnerPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Fax" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Postalcode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ManagerId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Manager" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ProvinceId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CityId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CountyId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="WebAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="FoundedTime" Type="DateTime" Precision="3" />
+          <Property Name="BusinessScope" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Layer" Type="Int32" />
+          <Property Name="SortCode" Type="Int32" />
+          <Property Name="DeleteMark" Type="Int32" />
+          <Property Name="EnabledMark" Type="Int32" />
+          <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Precision="3" />
+          <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ModifyDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifyUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ModifyUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="HeNanWuJingEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Base_Organize" EntityType="Self.Base_Organize" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="HeNanWuJingModelStoreContainer" CdmEntityContainer="HeNanWuJingEntities">
+          <EntitySetMapping Name="Base_Organize">
+            <EntityTypeMapping TypeName="HeNanWuJingModel.Base_Organize">
+              <MappingFragment StoreEntitySet="Base_Organize">
+                <ScalarProperty Name="OrganizeId" ColumnName="OrganizeId" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+                <ScalarProperty Name="EnCode" ColumnName="EnCode" />
+                <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="Nature" ColumnName="Nature" />
+                <ScalarProperty Name="OuterPhone" ColumnName="OuterPhone" />
+                <ScalarProperty Name="InnerPhone" ColumnName="InnerPhone" />
+                <ScalarProperty Name="Fax" ColumnName="Fax" />
+                <ScalarProperty Name="Postalcode" ColumnName="Postalcode" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="ManagerId" ColumnName="ManagerId" />
+                <ScalarProperty Name="Manager" ColumnName="Manager" />
+                <ScalarProperty Name="ProvinceId" ColumnName="ProvinceId" />
+                <ScalarProperty Name="CityId" ColumnName="CityId" />
+                <ScalarProperty Name="CountyId" ColumnName="CountyId" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="WebAddress" ColumnName="WebAddress" />
+                <ScalarProperty Name="FoundedTime" ColumnName="FoundedTime" />
+                <ScalarProperty Name="BusinessScope" ColumnName="BusinessScope" />
+                <ScalarProperty Name="Layer" ColumnName="Layer" />
+                <ScalarProperty Name="SortCode" ColumnName="SortCode" />
+                <ScalarProperty Name="DeleteMark" ColumnName="DeleteMark" />
+                <ScalarProperty Name="EnabledMark" ColumnName="EnabledMark" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="CreateUserId" ColumnName="CreateUserId" />
+                <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+                <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+                <ScalarProperty Name="ModifyUserId" ColumnName="ModifyUserId" />
+                <ScalarProperty Name="ModifyUserName" ColumnName="ModifyUserName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

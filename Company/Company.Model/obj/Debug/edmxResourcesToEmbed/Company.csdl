@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HeNanWuJingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Base_Organize">
+    <Key>
+      <PropertyRef Name="OrganizeId" />
+    </Key>
+    <Property Name="OrganizeId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Category" Type="Int32" />
+    <Property Name="ParentId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EnCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ShortName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Nature" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OuterPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="InnerPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Fax" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Postalcode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ManagerId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Manager" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProvinceId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CityId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CountyId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="WebAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="FoundedTime" Type="DateTime" Precision="3" />
+    <Property Name="BusinessScope" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Layer" Type="Int32" />
+    <Property Name="SortCode" Type="Int32" />
+    <Property Name="DeleteMark" Type="Int32" />
+    <Property Name="EnabledMark" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="CreateUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifyDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifyUserId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifyUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="HeNanWuJingEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Base_Organize" EntityType="Self.Base_Organize" />
+  </EntityContainer>
+</Schema>
