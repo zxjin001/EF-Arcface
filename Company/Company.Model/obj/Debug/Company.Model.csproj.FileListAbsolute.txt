@@ -22,3 +22,15 @@ F:\Practice\EFUpload\Company\Company.Model\bin\Debug\zh-Hans\EntityFramework.Sql
 F:\Practice\EFUpload\Company\Company.Model\obj\Debug\Company.Model.csprojResolveAssemblyReference.cache
 F:\Practice\EFUpload\Company\Company.Model\obj\Debug\Company.Model.dll
 F:\Practice\EFUpload\Company\Company.Model\obj\Debug\Company.Model.pdb
+F:\Practice\EFUpload2\Company\Company.Model\bin\Debug\Company.Model.dll.config
+F:\Practice\EFUpload2\Company\Company.Model\bin\Debug\Company.Model.dll
+F:\Practice\EFUpload2\Company\Company.Model\bin\Debug\Company.Model.pdb
+F:\Practice\EFUpload2\Company\Company.Model\bin\Debug\EntityFramework.dll
+F:\Practice\EFUpload2\Company\Company.Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\Practice\EFUpload2\Company\Company.Model\bin\Debug\EntityFramework.xml
+F:\Practice\EFUpload2\Company\Company.Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\Practice\EFUpload2\Company\Company.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Practice\EFUpload2\Company\Company.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\Practice\EFUpload2\Company\Company.Model\obj\Debug\Company.Model.csprojResolveAssemblyReference.cache
+F:\Practice\EFUpload2\Company\Company.Model\obj\Debug\Company.Model.dll
+F:\Practice\EFUpload2\Company\Company.Model\obj\Debug\Company.Model.pdb

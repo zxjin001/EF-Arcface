@@ -78,7 +78,6 @@
     </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.Config" />
     <None Include="Company.edmx.diagram">
       <DependentUpon>Company.edmx</DependentUpon>
     </None>

@@ -18,3 +18,13 @@ F:\Practice\EFUpload\Company\Company.IBLL\bin\Debug\zh-Hans\EntityFramework.reso
 F:\Practice\EFUpload\Company\Company.IBLL\obj\Debug\Company.IBLL.csprojResolveAssemblyReference.cache
 F:\Practice\EFUpload\Company\Company.IBLL\obj\Debug\Company.IBLL.dll
 F:\Practice\EFUpload\Company\Company.IBLL\obj\Debug\Company.IBLL.pdb
+F:\Practice\EFUpload2\Company\Company.IBLL\bin\Debug\Company.IBLL.dll
+F:\Practice\EFUpload2\Company\Company.IBLL\bin\Debug\Company.IBLL.pdb
+F:\Practice\EFUpload2\Company\Company.IBLL\bin\Debug\Company.Model.dll
+F:\Practice\EFUpload2\Company\Company.IBLL\bin\Debug\EntityFramework.dll
+F:\Practice\EFUpload2\Company\Company.IBLL\bin\Debug\Company.Model.pdb
+F:\Practice\EFUpload2\Company\Company.IBLL\bin\Debug\EntityFramework.xml
+F:\Practice\EFUpload2\Company\Company.IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Practice\EFUpload2\Company\Company.IBLL\obj\Debug\Company.IBLL.csprojResolveAssemblyReference.cache
+F:\Practice\EFUpload2\Company\Company.IBLL\obj\Debug\Company.IBLL.dll
+F:\Practice\EFUpload2\Company\Company.IBLL\obj\Debug\Company.IBLL.pdb

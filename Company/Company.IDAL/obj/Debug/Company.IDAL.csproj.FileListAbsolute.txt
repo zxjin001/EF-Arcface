@@ -18,3 +18,13 @@ F:\Practice\EFUpload\Company\Company.IDAL\bin\Debug\zh-Hans\EntityFramework.reso
 F:\Practice\EFUpload\Company\Company.IDAL\obj\Debug\Company.IDAL.csprojResolveAssemblyReference.cache
 F:\Practice\EFUpload\Company\Company.IDAL\obj\Debug\Company.IDAL.dll
 F:\Practice\EFUpload\Company\Company.IDAL\obj\Debug\Company.IDAL.pdb
+F:\Practice\EFUpload2\Company\Company.IDAL\bin\Debug\Company.IDAL.dll
+F:\Practice\EFUpload2\Company\Company.IDAL\bin\Debug\Company.IDAL.pdb
+F:\Practice\EFUpload2\Company\Company.IDAL\bin\Debug\Company.Model.dll
+F:\Practice\EFUpload2\Company\Company.IDAL\bin\Debug\EntityFramework.dll
+F:\Practice\EFUpload2\Company\Company.IDAL\bin\Debug\Company.Model.pdb
+F:\Practice\EFUpload2\Company\Company.IDAL\bin\Debug\EntityFramework.xml
+F:\Practice\EFUpload2\Company\Company.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\Practice\EFUpload2\Company\Company.IDAL\obj\Debug\Company.IDAL.csprojResolveAssemblyReference.cache
+F:\Practice\EFUpload2\Company\Company.IDAL\obj\Debug\Company.IDAL.dll
+F:\Practice\EFUpload2\Company\Company.IDAL\obj\Debug\Company.IDAL.pdb
